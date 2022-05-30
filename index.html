@@ -3,56 +3,16 @@
 <head>
 <title>Banilya</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-                
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <br>
     <div class="mycontainer"></div>
-    <script>
-    $.getJSON('https://rickandmortyapi.com/api/character/', function(data) {
-
-        var text = "";
-        
-        for (let i = 0; i < data.results.length; i++) {
-            text += "<div class='item'><img src='" + data.results[i].image + "'/>" +
-                "<h3>" + data.results[i].id + ".) " + data.results[i].name + "</h3> " +
-                "Status: " + data.results[i].status + " <br>" + 
-                " Gender: " + data.results[i].gender + "</div>";
-        }
-
-        $(".mycontainer").html(text);
-    });
-
-    
-    </script>
-
+    <script src="js/main.js"></script>
 </body>
 </html>
 
 <style>
-    @import url('http://fonts.cdnfonts.com/css/bpmono');
-    body {
-        font-family: 'BPmono', sans-serif;
-    }
-    .mycontainer {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .item img {
-        width: 100%;
-        height: auto;
-    }
-    .item {
-        margin-bottom: 30px;
-        width: 250px;
-        background: #333;
-        color: #fff;
-        padding: 20px;
-        box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
-    }
-    .item h3 {
-        font-size: 16px;
-    }
+    
 </style>

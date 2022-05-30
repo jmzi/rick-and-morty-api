@@ -1,0 +1,24 @@
+@import url('http://fonts.cdnfonts.com/css/bpmono');
+    body {
+        font-family: 'BPmono', sans-serif;
+    }
+    .mycontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .item {
+            margin-bottom: 30px;
+            width: 250px;
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+            img {
+                width: 100%;
+                height: auto;
+            }
+            h3 {
+                font-size: 16px;
+            }
+        }
+    }
