@@ -1,4 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/bpmono');
+* {
+    transition: .3s all ease-in-out;
+}
     body {
         font-family: 'BPmono', sans-serif;
     }
@@ -6,6 +9,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin-bottom: 30px;
         .item {
             margin-bottom: 30px;
             width: 250px;
