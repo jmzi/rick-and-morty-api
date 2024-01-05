@@ -8,7 +8,7 @@ body {
   font-family: 'BPmono', sans-serif;
 }
 
-.mycontainer {
+.container .mycontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,7 +19,7 @@ body {
   margin-bottom: 30px;
 }
 
-.mycontainer .item {
+.container .mycontainer .item {
   margin-bottom: 30px;
   width: 250px;
   background: #333;
@@ -30,12 +30,12 @@ body {
   font-size: 13px;
 }
 
-.mycontainer .item img {
+.container .mycontainer .item img {
   width: 100%;
   height: auto;
 }
 
-.mycontainer .item h3 {
+.container .mycontainer .item h3 {
   font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
